@@ -6,7 +6,9 @@ import './App.css';
 
 import logo from './img/logo_lateral.png';
 import banner from './img/banner.png';
-import teste from './img/teste.png';
+import luz from './img/luz.png';
+import kardec from './img/kardec.png';
+import tv from './img/tv.png';
 
 function HomeScreen() {
     return (
@@ -28,26 +30,36 @@ function HomeScreen() {
         </a>
             </header> */}
             <Image sm={12} fluid className="Banner-img" src={banner} />
-            <Container>
-                <div class="ui two column grid">
-                    <div class="column">
-                        <div class="ui fluid image">
-                            <div class="ui black ribbon label">
-                                <i class="hotel icon"></i> Hotel
+            <Container className="Container-basico">
+                    <div class="ui three column grid">
+                        <div class="column">
+                            <div class="ui fluid image">
+                                <div class="ui green ribbon label">
+                                    <i class="book icon"></i> Artigos
                             </div>
-                            <img src={teste} />
+                                <img src={kardec} />
+                                <div class="ui bottom attached label">Conheça o espiritismo</div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="ui fluid image">
+                                <div class="ui green ribbon label">
+                                    <i class="bullhorn icon"></i> Eventos
+                            </div>
+                                <img src={luz} />
+                                <div class="ui bottom attached label">Tudo sobre os atuais eventos</div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="ui fluid image">
+                                <div class="ui green ribbon label">
+                                    <i class="play icon"></i> Tv Espírita
+                            </div>
+                                <img src={tv} />
+                                <div class="ui bottom attached label">Acompanhe no Youtube</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="column">
-                        <div class="ui fluid image">
-                            <div class="ui blue ribbon label">
-                                <i class="spoon icon"></i> Food
-                            </div>
-                            <img src={teste} />
-                        </div>
-                    </div>
-                </div>
-
             </Container>
 
         </div>

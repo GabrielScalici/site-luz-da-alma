@@ -1,5 +1,8 @@
 .App {
-  /* text-align: center; */
+  /* text-align: center;
+  justify-content: center;
+  align-items: center; */
+  background-color: #ffffff; 
 }
 
 .App-logo {
@@ -34,6 +37,41 @@
 .Banner-img {
     /* width: 1200px; */
     margin-top: 0;
+}
+
+.Container-basico{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-items: center;
+    background-color: #ffffff;
+}
+
+.Container-basico2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-items: center;
+    background-color: #f1f1f1f1;
+}
+
+.Inside-container-basico {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-items: center;
+}
+
+.Component-metric {
+    margin: 70px;
+    padding: 70px;
 }
 
 
