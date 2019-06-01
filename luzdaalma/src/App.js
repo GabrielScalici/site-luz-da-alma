@@ -15,12 +15,12 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <Navbar bg="white" variant="light">
+                    <Navbar bg="dark" variant="dark">
                         <Navbar.Brand href="#home">
                             <Image className="Logo-nav" src={logo} />
                         </Navbar.Brand>
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav variant="pills" className="mr-auto">
+                            <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/artigosscreen">Artigos</Nav.Link>
                             <Nav.Link href="#eventos">Eventos</Nav.Link>
                             <Nav.Link href="#tv">TV Espírita</Nav.Link>

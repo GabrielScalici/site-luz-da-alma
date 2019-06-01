@@ -27,6 +27,13 @@ function HomeScreen() {
         </a>
             </header> */}
             <Image sm={12} fluid className="Banner-img" src={banner} />
+            <Image sm={12} fluid className="Banner-img" src={banner} />
+            <Image sm={12} fluid className="Banner-img" src={banner} />
+            <Image sm={12} fluid className="Banner-img" src={banner} />
+            <Image sm={12} fluid className="Banner-img" src={banner} />
+            <Image sm={12} fluid className="Banner-img" src={banner} />
+            <Image sm={12} fluid className="Banner-img" src={banner} />
+            <Image sm={12} fluid className="Banner-img" src={banner} />
             <Container>
             </Container>
 

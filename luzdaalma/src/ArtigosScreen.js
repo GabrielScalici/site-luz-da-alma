@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 //import logo from './logo.svg';
 import { Container, Row, Col, Navbar, Nav, Form, FormControl, Button, Card, Transformation, Carousel } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -7,12 +7,51 @@ import './App.css';
 
 import logo from './img/logo_lateral.png';
 import banner from './img/banner.png';
+import banner_jornal from './img/banner_jornal.png';
+import banner_biblia from './img/banner_biblia.png';
 
 class ArtigosScreen extends Component {
 
     render() {
         return (
             <div>
+                <Carousel>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={banner_jornal}
+                            alt="Saiba tudo"
+                        />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={banner_biblia}
+                            alt="Conheça"
+                        />
+
+                        <Carousel.Caption>
+                            <h3>Second slide label</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={banner}
+                            alt="Third slide"
+                        />
+
+                        <Carousel.Caption>
+                            <h3>Third slide label</h3>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel> 
             </div>
 
         );
