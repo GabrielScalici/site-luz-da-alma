@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -9,7 +9,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +22,24 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* NAV */
+.Logo-nav{
+    height: 80px,
+}
+
+
+/* HOME SCREEN */
+.Banner-img {
+    /* width: 1200px; */
+    margin-top: 0;
+}
+
+
+.Texto-teste {
+    color: 'black';
+    font-family: 'Roboto';
 }
 
 @keyframes App-logo-spin {
