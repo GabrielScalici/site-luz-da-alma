@@ -36,26 +36,12 @@ class NosScreen extends Component {
                     </Row>
                 </Container>
 
-                <Container className="Container-basico2">
-                    <Image sm={8} fluid className="Banner-img" src={logo} />
-                    <h1 class="ui header">Acompanhe nas redes sociais</h1>
+                <div className="Container-basico2">
+                    
                     <Row className="Inside-container-basico ">
-                        <button className="ui facebook button Component-metric">
-                            <i className="facebook icon"></i>
-                            Facebook
-                        </button>
-
-                        <button className="ui instagram button Component-metric">
-                            <i className="instagram icon"></i>
-                            Instagram
-                        </button>
-
-                        <button className="ui youtube button Component-metric">
-                            <i className="youtube icon"></i>
-                            YouTube
-                        </button>
+                        
                     </Row>
-                </Container>
+                </div>
 
             </div>
 
