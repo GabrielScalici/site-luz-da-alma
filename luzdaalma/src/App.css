@@ -81,6 +81,8 @@
 .Linha-cinza {
     background-color: #e6e6e6;
     padding: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .Linha-branca {
