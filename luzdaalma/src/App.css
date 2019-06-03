@@ -64,6 +64,13 @@
     background-color: #f1f1f1f1;
 }
 
+.Container-center {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .Inside-container-basico {
     justify-content: center;
     align-items: center;
@@ -103,4 +110,8 @@
 .Card-destaque {
     margin-left: 100px;
     margin-right: 100px
+}
+
+.Card-pequeno {
+    margin: 10px;
 }

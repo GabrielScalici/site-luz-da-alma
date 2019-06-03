@@ -66,10 +66,10 @@ function HomeScreen() {
 
             </Container>
 
-            <div className="Linha-cinza" >
+            <div className="Linha-cinza Container-center" >
                 <Row sm={12} xl={12} >
                     <Col sm={12} md={6}>
-                        <Card className="bg-dark text-white Card-destaque">
+                        <Card className="bg-dark text-white ">
                             <Card.Img src={tv} alt="Card image" className="Img-card-destaque" />
                             <Card.ImgOverlay>
                                 <Card.Title>Card title</Card.Title>
@@ -82,49 +82,209 @@ function HomeScreen() {
                         </Card>
                     </Col>
 
-                    <Col sm={12} md={6} className="">
-                        <Row>
-                            <div class="ui card">
-                                <div class="content">
-                                    <div class="header">Cute Dog</div>
-                                    <div class="meta">
-                                        <span>2 days ago</span>
-                                        <a>Animals</a>
-                                    </div> 
-                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
-                                </div>
-                            </div>
-                            <div class="ui card">
+                    <Col sm={12} md={6} className="Container-center">
+
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
                                 <div class="content">
                                     <div class="header">Cute Dog</div>
                                     <div class="meta">
                                         <span>2 days ago</span>
                                         <a>Animals</a>
                                     </div>
-                                    <p></p>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
                                 </div>
                             </div>
-                            {/* <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="holder.js/100px180" />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        
-                            <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="holder.js/100px180" />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card> */}
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                    </Col>
+                </Row>
+            </div>
+            <div className="Container-branco">
+                <Row>
+                    <Col sm={12} md={3} className="Container-center">
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                    </Col>
+                    <Col sm={12} md={3} className="Container-center">
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                    </Col>
+                    <Col sm={12} md={3} className="Container-center">
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai uahsbd akjsdbka asdkj asdkja sdkjba ajksdb askjdb asjkd basdkj baskjdb askdjb asjkd baskjd basdjk basdkj baskd baskjd bm texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                    </Col>
+                    <Col sm={12} md={3} className="Container-center">
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
+                        </Row>
+                        <Row className="Container-center">
+                            <div class="ui card Card-pequeno">
+                                <div class="content">
+                                    <div class="header">Cute Dog</div>
+                                    <div class="meta">
+                                        <span>2 days ago</span>
+                                        <a>Animals</a>
+                                    </div>
+                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
+
+                                </div>
+                            </div>
                         </Row>
                     </Col>
                 </Row>
