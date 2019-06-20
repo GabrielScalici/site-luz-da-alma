@@ -169,16 +169,21 @@ function HomeScreen() {
                     </Col>
                     <Col sm={12} md={3} className="Container-center">
                         <Row className="Container-center">
-                            <div class="ui card Card-pequeno">
-                                <div class="content">
-                                    <div class="header">Cute Dog</div>
-                                    <div class="meta">
-                                        <span>2 days ago</span>
-                                        <a>Animals</a>
+                            <Col>
+                                <Card.Img variant="top" src="holder.js/100px180" />
+                            </Col>
+                            <Col>
+                                <div class="ui card Card-pequeno">
+                                    <div class="content">
+                                        <div class="header">Cute Dog</div>
+                                        <div class="meta">
+                                            <span>2 days ago</span>
+                                            <a>Animals</a>
+                                        </div>
+                                        <p>CU DE BURRO</p>
                                     </div>
-                                    <p>Aqui vai um texta ens nfjn fkjsnd kjfns jkdfn skjdfnj ksdnf jksdnfjks nfjksnjfskjdfn jkdsnfkjsnfjksnj kfnskjfnsjkdnfjks ndf</p>
                                 </div>
-                            </div>
+                            </Col>
                         </Row>
                         <Row className="Container-center">
                             <div class="ui card Card-pequeno">
